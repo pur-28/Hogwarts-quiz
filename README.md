@@ -21,17 +21,6 @@ Test your Wizarding World knowledge and see which Hogwarts House you belong to! 
 
 ---
 
-## 📂 Project Structure
-hogwarts-quiz/
-├── index.html
-├── style.css 
-├── script.js 
-├── bg.jpg 
-├── README.md 
-└── LICENSE
-
----
-
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).  
 
