@@ -23,7 +23,7 @@ Test your Wizarding World knowledge and see which Hogwarts House you belong to! 
 
 ## 📂 Project Structure
 hogwarts-quiz/
-├── index.html 
+├── index.html
 ├── style.css 
 ├── script.js 
 ├── bg.jpg 
