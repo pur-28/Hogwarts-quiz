@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts Quiz Challenge</title>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Hogwarts Quiz Challenge</h1>
+      <p>Test your knowledge of the Wizarding World!</p>
+    </div>
+
+    <div class="startbtn">Start Quiz</div>
+
+    <div class="infobox">
+      <div class="infotitle">Rules of the Quiz</div>
+      <div class="infolist">
+        <div class="info"><i class="fas fa-hourglass-half"></i> You have 15 seconds for each question.</div>
+        <div class="info"><i class="fas fa-lock"></i> Once you select your answer, it can't be changed.</div>
+        <div class="info"><i class="fas fa-ban"></i> You can't select any option once time goes off.</div>
+        <div class="info"><i class="fas fa-door-open"></i> You can't exit from the Quiz while playing.</div>
+        <div class="info"><i class="fas fa-star"></i> You'll get points on the basis of your correct answers.</div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+      </div>
+    </div>
+
+    <div class="quizbox">
+      <header class="quiz-header">
+        <div class="quiz-title">Hogwarts Quiz Challenge</div>
+        <div class="timer-container">
+          <div class="timer-text">Time Left</div>
+          <div class="timer-sec">15</div>
+        </div>
+      </header>
+
+      <div class="time-line"></div>
+
+      <section>
+        <div class="question-text"></div>
+        <ul class="option-list"></ul>
+      </section>
+
+      <footer class="quiz-footer">
+        <div class="total-questions"></div>
+        <button class="next-btn">Next Question</button>
+      </footer>
+    </div>
+
+    <div class="resultbox">
+      <div class="complete-text">You've completed the Quiz!</div>
+      <div class="score-text"></div>
+      <div class="house-text"></div>
+      <div class="result-buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
