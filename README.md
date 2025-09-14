@@ -17,7 +17,7 @@ Test your Wizarding World knowledge and see which Hogwarts House you belong to! 
 ---
 
 ## 🚀 Live Demo
-👉 [Play Here](https://pur-28.github.io/Hogwarts-quiz/)  
+👉 [Play Here]([(https://hogwartsquiz-challenge.netlify.app/)]  
 
 ---
 
